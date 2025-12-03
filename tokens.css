@@ -1,0 +1,373 @@
+/* Core */
+/* font */
+--font-family-body: Gerstner Programm;
+--font-family-caption: Gerstner Programm;
+--font-family-display: Gerstner Programm;
+--font-family-eyebrow: Gerstner Programm;
+--font-family-headline: Gerstner Programm;
+--font-family-headline 2: Gerstner Programm;
+--font-family-label: Gerstner Programm;
+--font-family-subhead: Gerstner Programm;
+--font-weight-bold: Bold;
+--font-weight-bold italic: Bold Italic;
+--font-weight-italic: Italic;
+--font-weight-medium: Medium;
+--font-weight-medium italic: Medium Italic;
+--font-weight-regular: Regular;
+/* radius */
+--radius-corner-radius-l: 1rem;
+--radius-corner-radius-m: 0.5rem;
+--radius-corner-radius-round: 624.9375rem;
+--radius-corner-radius-s: 0.25rem;
+--radius-corner-radius-xl: 1.5rem;
+/* color */
+--color-brand-200: #9299c3;
+--color-brand-500: #263488;
+--color-brand-700: #19225a;
+--color-brand-900: #0c112d;
+--color-error-200: #d08989;
+--color-error-500: #a11313;
+--color-neutral-100: #e2e2e2;
+--color-neutral-200: #c6c6c6;
+--color-neutral-300: #ababab;
+--color-neutral-400: #8b8b8b;
+--color-neutral-50: #f6f6f6;
+--color-neutral-500: #6f6f6f;
+--color-neutral-600: #545454;
+--color-neutral-700: #424242;
+--color-neutral-800: #303030;
+--color-neutral-900: #242424;
+--color-neutral-black: #000000;
+--color-neutral-white: #ffffff;
+--color-success-300: #6eaf73;
+--color-success-500: #26882e;
+--color-warning-100: #ffe08e;
+--color-warning-200: #f8bd00;
+/* Icon */
+--icon-stroke: 0.09375rem;
+
+/* Responsive */
+/* Spacing */
+--spacing-space-fixed-1: 0.5rem;
+--spacing-space-fixed-2: 1rem;
+--spacing-space-fixed-3: 1.5rem;
+--spacing-space-fixed-4: 2rem;
+--spacing-space-fixed-5: 2.5rem;
+/* Text */
+--text-body-primary: 1.125rem;
+--text-body-secondary: 1rem;
+--text-caption: 0.75rem;
+--text-eyebrow: 0.75rem;
+--text-label-primary: 1rem;
+--text-label-secondary: 0.875rem;
+--text-subhead: 1.5rem;
+/* Icon */
+--icon-l: 4rem;
+--icon-m: 2rem;
+--icon-s: 1.5rem;
+--icon-xl: 8rem;
+
+/* L */
+/* Spacing */
+--spacing-space-1-l: 1.5rem;
+--spacing-space-2-l: 2rem;
+--spacing-space-3-l: 2.5rem;
+--spacing-space-4-l: 3rem;
+--spacing-space-5-l: 3.5rem;
+/* Text */
+--text-display-l: 4rem;
+--text-headline-primary-l: 3.5rem;
+--text-headline-secondary-l: 3rem;
+
+/* M */
+/* Spacing */
+--spacing-space-1-m: 1rem;
+--spacing-space-2-m: 1.5rem;
+--spacing-space-3-m: 2rem;
+--spacing-space-4-m: 2.5rem;
+--spacing-space-5-m: 3rem;
+/* Text */
+--text-display-m: 3.5rem;
+--text-headline-primary-m: 3rem;
+--text-headline-secondary-m: 2.5rem;
+
+/* S */
+/* Spacing */
+--spacing-space-1-s: 0.5rem;
+--spacing-space-2-s: 1rem;
+--spacing-space-3-s: 1.5rem;
+--spacing-space-4-s: 2rem;
+--spacing-space-5-s: 2.5rem;
+/* Text */
+--text-display-s: 3rem;
+--text-headline-primary-s: 2.5rem;
+--text-headline-secondary-s: 2rem;
+
+/* XL */
+/* Spacing */
+--spacing-space-1-xl: 2rem;
+--spacing-space-2-xl: 2.5rem;
+--spacing-space-3-xl: 3rem;
+--spacing-space-4-xl: 3.5rem;
+--spacing-space-5-xl: 4rem;
+/* Text */
+--text-display-xl: 4.5rem;
+--text-headline-primary-xl: 4rem;
+--text-headline-secondary-xl: 3.5rem;
+
+/* Dark */
+/* surface */
+--surface-brand-dark: #9299c3;
+--surface-error-dark: #d08989;
+--surface-minimal-dark: #242424;
+--surface-primary-dark: #000000;
+--surface-secondary-dark: #ffffff;
+--surface-success-dark: #6eaf73;
+--surface-warning-dark: #ffe08e;
+/* text */
+--text-brand-dark: #9299c3;
+--text-contrast-dark: #6f6f6f;
+--text-invert-dark: #000000;
+--text-primary-dark: #ffffff;
+/* icon */
+--icon-brand-dark: #9299c3;
+--icon-contrast-dark: #6f6f6f;
+--icon-invert-dark: #000000;
+--icon-positive-dark: #6eaf73;
+--icon-primary-dark: #ffffff;
+/* button */
+--button-primary-dark: #263488;
+--button-primary-hover-dark: #19225a;
+--button-primary-pressed-dark: #0c112d;
+--button-secondary-dark: #ffffff;
+--button-secondary-hover-dark: #e2e2e2;
+--button-secondary-pressed-dark: #c6c6c6;
+/* border */
+--border-invert-dark: #e2e2e2;
+--border-primary-dark: #242424;
+
+/* Light */
+/* surface */
+--surface-brand-light: #263488;
+--surface-error-light: #a11313;
+--surface-minimal-light: #f6f6f6;
+--surface-primary-light: #ffffff;
+--surface-secondary-light: #000000;
+--surface-success-light: #26882e;
+--surface-warning-light: #f8bd00;
+/* text */
+--text-brand-light: #263488;
+--text-contrast-light: #6f6f6f;
+--text-invert-light: #ffffff;
+--text-primary-light: #000000;
+/* icon */
+--icon-brand-light: #263488;
+--icon-contrast-light: #6f6f6f;
+--icon-invert-light: #ffffff;
+--icon-positive-light: #26882e;
+--icon-primary-light: #000000;
+/* button */
+--button-primary-light: #263488;
+--button-primary-hover-light: #19225a;
+--button-primary-pressed-light: #0c112d;
+--button-secondary-light: #000000;
+--button-secondary-hover-light: #303030;
+--button-secondary-pressed-light: #242424;
+/* border */
+--border-invert-light: #242424;
+--border-primary-light: #e2e2e2;
+
+/* Text Styles */
+.body-primary-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 18px;
+  line-height: 103.99999618530273%;
+}
+.body-primary-bold-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Bold Italic;
+  font-size: 18px;
+  line-height: 103.99999618530273%;
+}
+.body-primary-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Italic;
+  font-size: 18px;
+  line-height: 103.99999618530273%;
+}
+.body-primary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 18px;
+  line-height: 103.99999618530273%;
+}
+.body-primary-medium-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Medium Italic;
+  font-size: 18px;
+  line-height: 103.99999618530273%;
+}
+.body-primary-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 18px;
+  line-height: normal;
+}
+.body-secondary-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 103.99999618530273%;
+}
+.body-secondary-bold-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Bold Italic;
+  font-size: 16px;
+  line-height: 103.99999618530273%;
+}
+.body-secondary-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Italic;
+  font-size: 16px;
+  line-height: 103.99999618530273%;
+}
+.body-secondary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: 103.99999618530273%;
+}
+.body-secondary-medium-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Medium Italic;
+  font-size: 16px;
+  line-height: 103.99999618530273%;
+}
+.body-secondary-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 120.00000476837158%;
+}
+.caption-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 12px;
+  line-height: normal;
+}
+.eyebrow-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 12px;
+  line-height: 103.99999618530273%;
+  letter-spacing: 4%;
+}
+.headline-display-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 48px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-display-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Italic;
+  font-size: 48px;
+  line-height: 103.99999618530273%;
+}
+.headline-display-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 48px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-display-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 48px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-primary-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 40px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-primary-italic {
+  font-family: "Gerstner Programm";
+  font-weight: Italic;
+  font-size: 40px;
+  line-height: normal;
+}
+.headline-primary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 40px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-primary-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 40px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-secondary-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 32px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-secondary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 32px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.headline-secondary-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 32px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.label-primary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: normal;
+}
+.label-secondary-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: normal;
+}
+.subhead-bold {
+  font-family: "Gerstner Programm";
+  font-weight: Bold;
+  font-size: 24px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.subhead-medium {
+  font-family: "Gerstner Programm";
+  font-weight: Medium;
+  font-size: 24px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
+.subhead-regular {
+  font-family: "Gerstner Programm";
+  font-weight: Regular;
+  font-size: 24px;
+  line-height: 103.99999618530273%;
+  letter-spacing: -2%;
+}
